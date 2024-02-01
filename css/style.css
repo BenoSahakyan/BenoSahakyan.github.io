@@ -1,0 +1,973 @@
+body .active {
+  color: rgb(1, 255, 1) !important;
+}
+body header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 54, 65, 0.5)), to(rgba(50, 54, 65, 0.5))), url(../img/header1.jpg);
+  background-image: linear-gradient(rgba(50, 54, 65, 0.5), rgba(50, 54, 65, 0.5)), url(../img/header1.jpg);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body header .logoheader {
+  position: relative;
+  color: white;
+  font-size: 26px;
+  border-right: 4px solid rgb(0, 255, 0);
+  /* border-radius: 70px; */
+  border-radius: 50%;
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 20px;
+}
+body header .nabar1 {
+  padding: 20px;
+  padding-left: 22%;
+  -webkit-box-shadow: 0px 4px 42px 0px rgb(56, 51, 52);
+          box-shadow: 0px 4px 42px 0px rgb(56, 51, 52);
+}
+body header .nabar1 ul {
+  padding-left: 5%;
+}
+body header .nabar1 ul li {
+  padding-left: 20px;
+}
+body header .nabar1 ul li a {
+  font-weight: 600;
+  color: rgb(187, 184, 184);
+  font-size: 11px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+body header .nabar1 ul li a:hover {
+  color: rgb(241, 243, 244);
+}
+@media only screen and (max-width: 992px) {
+  body header .nabar1 ul {
+    padding-left: 0;
+  }
+}
+body header .textDiv .green {
+  color: rgb(0, 255, 0);
+}
+body header .textDiv span {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 900;
+}
+@media only screen and (max-width: 1105px) {
+  body header .textDiv span {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body header .textDiv span {
+    font-size: 55px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body header .textDiv span {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body header .textDiv span {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body header .textDiv span {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body header .textDiv span {
+    font-size: 30px;
+  }
+}
+body header .textDiv h4 {
+  color: #fff;
+  font-size: 27px;
+}
+@media only screen and (max-width: 750px) {
+  body header .textDiv h4 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body header .textDiv h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body header .textDiv h4 {
+    font-size: 17px;
+  }
+}
+body header .textDiv .green1 {
+  padding: 8px;
+  background-color: rgb(72, 255, 0);
+  width: 2%;
+  display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  body header .textDiv .green1 {
+    padding: 6px;
+  }
+}
+body header .position1 {
+  background-color: #333B50;
+  padding: 40px;
+  padding-bottom: 100px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 16%;
+}
+body header .position1 p {
+  color: #fff;
+  line-height: 2.6;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 680px) {
+  body header .position1 p {
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body header .position1 p {
+    font-size: smaller;
+  }
+}
+body header .position1 .icon {
+  color: #04ff00;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-size: 100px;
+}
+@media only screen and (max-width: 768px) {
+  body header .position1 .icon {
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-top: 0;
+  }
+}
+body header .position1 button {
+  padding: 10px 38px;
+  margin-bottom: 60px;
+  border: none;
+  border: 1px solid rgb(55, 255, 0);
+  background-color: transparent;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body header .position1 button:hover {
+  background-color: rgb(55, 255, 0);
+}
+@media only screen and (max-width: 992px) {
+  body header .position1 button {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body header .position1 button {
+    margin-bottom: 0;
+    padding: 6px 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body header .position1 button {
+    margin-bottom: 0;
+    padding: 3px 9px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body header .position1 {
+    position: absolute;
+    left: 0%;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body header .position1 {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body header .position1 {
+    padding: 20px;
+  }
+}
+body header .logo {
+  position: relative;
+  color: white;
+  font-size: 80px;
+  border-right: 4px solid rgb(0, 255, 0);
+  /* border-radius: 70px; */
+  border-radius: 50%;
+  padding: 25px 50px 25px 50px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  body header {
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body header {
+    height: 550px;
+  }
+}
+body .sec1 {
+  padding: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 54, 65, 0.8)), to(rgba(50, 54, 65, 0.8))), url(../img/sec1.jpg);
+  background-image: linear-gradient(rgba(50, 54, 65, 0.8), rgba(50, 54, 65, 0.8)), url(../img/sec1.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .sec1 .col2 p {
+  color: #fff;
+}
+body .sec1 p {
+  text-align: right;
+}
+body .sec1 p .sp1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: gray;
+  padding-right: 10px;
+}
+@media only screen and (max-width: 992px) {
+  body .sec1 p .sp1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  body .sec1 p .sp1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .sec1 p .sp1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body .sec1 p .sp1 {
+    font-size: 30px;
+  }
+}
+body .sec1 p .sp2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 992px) {
+  body .sec1 p .sp2 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  body .sec1 p .sp2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .sec1 p .sp2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body .sec1 p .sp2 {
+    font-size: 30px;
+  }
+}
+body .sec1 h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+@media only screen and (max-width: 992px) {
+  body .sec1 h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .sec1 h4 {
+    font-size: 18px;
+  }
+}
+body .sec1 .progress1 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress1 2s ease-in-out forwards;
+          animation: progress1 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes progress1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+body .sec1 .progress1 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress1 2s ease-in-out forwards;
+          animation: progress1 2s ease-in-out forwards;
+}
+@keyframes progress1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+body .sec1 .progress2 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress2 2s ease-in-out forwards;
+          animation: progress2 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes progress2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+body .sec1 .progress3 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress3 2s ease-in-out forwards;
+          animation: progress3 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes progress3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+body .sec1 .progress4 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress4 2s ease-in-out forwards;
+          animation: progress4 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes progress4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+body .sec1 .progress5 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress5 2s ease-in-out forwards;
+          animation: progress5 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progress5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+body .sec1 .progress6 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress6 2s ease-in-out forwards;
+          animation: progress6 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes progress6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+body .sec1 .progress7 {
+  display: inline-block;
+  border-radius: 0;
+  background-color: rgb(15, 255, 15) !important;
+  -webkit-animation: progress7 2s ease-in-out forwards;
+          animation: progress7 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progress7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .sec1 {
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  body .sec1 {
+    height: 700px;
+  }
+}
+body .sec2 {
+  padding: 40px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 54, 65, 0.9)), to(rgba(50, 54, 65, 0.9))), url(../img/sec2..jpg);
+  background-image: linear-gradient(rgba(50, 54, 65, 0.9), rgba(50, 54, 65, 0.9)), url(../img/sec2..jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .sec2 p .sp3 {
+  font-size: 50px;
+  font-weight: 900;
+  color: gray;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  body .sec2 p .sp3 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  body .sec2 p .sp3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body .sec2 p .sp3 {
+    font-size: 25px;
+  }
+}
+body .sec2 p .sp4 {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(255, 254, 254);
+}
+@media only screen and (max-width: 1200px) {
+  body .sec2 p .sp4 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  body .sec2 p .sp4 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body .sec2 p .sp4 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body .sec2 p {
+    margin-bottom: 0;
+  }
+}
+body .sec2 .sp5 {
+  font-size: 25px;
+  color: rgb(255, 254, 254);
+}
+@media only screen and (max-width: 1200px) {
+  body .sec2 .sp5 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  body .sec2 .sp5 {
+    font-size: 17px;
+  }
+}
+body .sec2 .a1 {
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 1040px) {
+  body .sec2 .a1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  body .sec2 .a1 {
+    font-size: 17px;
+  }
+}
+body .sec2 img {
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+body .sec2 img:hover {
+  opacity: 0.9;
+}
+body .sec2 .img1 {
+  height: 299px;
+}
+@media only screen and (max-width: 1399px) {
+  body .sec2 .img1 {
+    height: 259px;
+  }
+}
+@media only screen and (max-width: 1217px) {
+  body .sec2 .img1 {
+    height: 258px;
+  }
+}
+@media only screen and (max-width: 1206px) {
+  body .sec2 .img1 {
+    height: 255.5px;
+  }
+}
+@media only screen and (max-width: 1200.5px) {
+  body .sec2 .img1 {
+    height: 218px;
+  }
+}
+@media only screen and (max-width: 1038.5px) {
+  body .sec2 .img1 {
+    height: 215px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  body .sec2 .img1 {
+    height: 212px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  body .sec2 .img1 {
+    height: 211px;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  body .sec2 .img1 {
+    height: 210px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  body .sec2 .img1 {
+    height: 164px;
+  }
+}
+@media only screen and (max-width: 782px) {
+  body .sec2 .img1 {
+    height: 158px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .sec2 .img1 {
+    height: 100%;
+  }
+}
+body .sec2 .spanDiv span {
+  font-size: 50px;
+  font-weight: 900;
+}
+@media only screen and (max-width: 1205px) {
+  body .sec2 .spanDiv span {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  body .sec2 .spanDiv span {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body .sec2 .spanDiv span {
+    font-size: 25px;
+  }
+}
+body .sec2 .spanDiv .span1 {
+  color: rgb(184, 184, 184);
+  padding-right: 15px;
+}
+body .sec2 .spanDiv .span2 {
+  color: rgb(255, 255, 255);
+  padding-right: 15px;
+}
+body .sec2 .spanDiv .span3 {
+  color: rgb(255, 255, 255);
+  padding-right: 15px;
+}
+body .sec2 .div1 {
+  padding: 0;
+  margin-top: 250px;
+  position: relative;
+}
+body .sec2 .div1 span {
+  font-weight: 700;
+  color: #1ae416;
+}
+body .sec2 .div1 p {
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  body .sec2 .div1 p {
+    font-size: smaller;
+    color: #fff;
+  }
+}
+body .sec2 .div1 h4 {
+  color: #fff;
+}
+body .sec2 .div1 h5 {
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  body .sec2 .div1 {
+    margin-top: 0;
+  }
+}
+body .sec2 .div2 {
+  position: relative;
+  padding: 0;
+}
+body .sec2 .div2 span {
+  font-weight: 700;
+  color: #1ae416;
+}
+body .sec2 .div2 p {
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  body .sec2 .div2 p {
+    font-size: smaller;
+  }
+}
+body .sec2 .div2 h4 {
+  color: #fff;
+}
+body .sec2 .div2 h5 {
+  color: #fff;
+}
+@media only screen and (max-width: 576px) {
+  body .sec2 {
+    padding: 100px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  body .sec2 {
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  body .sec2 {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  body .sec2 {
+    height: 2867px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .sec2 {
+    height: 2716px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  body .position2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #2caf2a;
+    -webkit-animation: myanim 4s ease-in-out forwards;
+            animation: myanim 4s ease-in-out forwards;
+  }
+  @-webkit-keyframes myanim {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 84%;
+    }
+  }
+  @keyframes myanim {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 84%;
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  body .div1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    margin-left: -30px;
+    border-radius: 50%;
+    background-color: #2caf2a;
+  }
+}
+body .div1::after {
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  right: -17px;
+}
+@media only screen and (min-width: 992px) {
+  body .div2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    margin-left: -30px;
+    border-radius: 50%;
+    background-color: #2caf2a;
+  }
+}
+body .div2::after {
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  left: 0px;
+}
+body .position3 {
+  padding: 40px;
+  margin-top: 150px;
+  background-color: #333B50;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 16%;
+  top: -25%;
+}
+body .position3 h4 {
+  color: #fff;
+}
+@media only screen and (max-width: 450px) {
+  body .position3 h4 {
+    font-size: unset;
+    margin-bottom: 0;
+  }
+}
+body .position3 p {
+  color: #fff;
+}
+@media only screen and (max-width: 1250px) {
+  body .position3 p {
+    font-size: small;
+  }
+}
+body .position3 a {
+  text-decoration: none;
+  color: #fff;
+}
+body .position3 span {
+  color: #fff;
+}
+body .position3 form {
+  width: 100%;
+}
+body .position3 form .textinp {
+  width: 100%;
+  padding: 2.5px 0;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 450px) {
+  body .position3 form .textinp {
+    margin-bottom: 5px;
+  }
+}
+body .position3 form .telinp {
+  width: 100%;
+  padding: 2.5px 0;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 450px) {
+  body .position3 form .telinp {
+    margin-bottom: 5px;
+  }
+}
+body .position3 form textarea {
+  width: 100%;
+  border-radius: 0;
+}
+body .position3 form button {
+  margin-top: 15px;
+  padding: 5px 105px;
+  background-color: #08ff04;
+  color: #fff;
+  border: none;
+  border: 1px solid green;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .position3 form button:hover {
+  background-color: transparent;
+}
+@media only screen and (max-width: 450px) {
+  body .position3 form button {
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 1490px) {
+  body .position3 form button {
+    padding: 5px 80px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body .position3 form button {
+    padding: 5px 61px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body .position3 form button {
+    padding: 5px 36px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  body .position3 {
+    padding: 25px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body .position3 {
+    padding: 65px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .position3 {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .position3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .position3 {
+    position: absolute;
+    top: -200px;
+  }
+}
+body .footerimg {
+  background-image: url(../img/footer.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+  body .footerimg {
+    height: 900px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  body .footerimg {
+    height: 650px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  body .footerimg {
+    height: 600px;
+  }
+}
+body footer {
+  background-color: #333B50;
+  padding: 80px;
+}
+body footer .footera {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+body footer span {
+  color: #fff;
+}
+body footer .logoFooter {
+  position: relative;
+  color: white;
+  font-size: 26px;
+  border-right: 4px solid rgb(0, 255, 0);
+  /* border-radius: 70px; */
+  border-radius: 50%;
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 20px;
+}
