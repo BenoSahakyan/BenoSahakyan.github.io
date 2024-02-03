@@ -41,12 +41,18 @@ body {
                     }
                 }
             }
-            @media only screen and (max-width: 992px){
-                ul {
-                    padding-left: 0;
-                }
-            }
           
+          
+        }
+        @media only screen and (max-width: 992px){
+            .nabar1{
+                padding-left: 0%;
+            }
+        }
+        @media only screen and (max-width: 992px){
+            ul {
+                padding-left: 0;
+            }
         }
         .textDiv {
             .green{

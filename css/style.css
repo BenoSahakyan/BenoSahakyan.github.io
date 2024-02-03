@@ -42,7 +42,12 @@ body header .nabar1 ul li a:hover {
   color: rgb(241, 243, 244);
 }
 @media only screen and (max-width: 992px) {
-  body header .nabar1 ul {
+  body header .nabar1 {
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body header ul {
     padding-left: 0;
   }
 }
