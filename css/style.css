@@ -12,11 +12,11 @@ body header {
 body header .logoheader {
   position: relative;
   color: white;
-  font-size: 26px;
+  font-size: 24px;
   border-right: 4px solid rgb(0, 255, 0);
   /* border-radius: 70px; */
   border-radius: 50%;
-  padding: 20px 30px 20px 30px;
+  padding: 15px 18px 20px 30px;
   margin-bottom: 20px;
 }
 body header .nabar1 {
@@ -208,6 +208,18 @@ body header .logo {
   padding: 25px 50px 25px 50px;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 800px) {
+  body header .logo {
+    font-size: 40px;
+    padding: 25px 33px 25px 50px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  body header .logo {
+    font-size: 27px;
+    padding: 23px 27px 23px 48px;
+  }
+}
 @media only screen and (max-width: 768px) {
   body header {
     height: 700px;
@@ -220,6 +232,7 @@ body header .logo {
 }
 body .sec1 {
   padding: 20px;
+  padding-top: 250px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 54, 65, 0.8)), to(rgba(50, 54, 65, 0.8))), url(../img/sec1.jpg);
   background-image: linear-gradient(rgba(50, 54, 65, 0.8), rgba(50, 54, 65, 0.8)), url(../img/sec1.jpg);
   height: 1000px;
@@ -296,7 +309,7 @@ body .sec1 h4 {
 }
 @media only screen and (max-width: 400px) {
   body .sec1 h4 {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 body .sec1 .progress1 {
@@ -475,6 +488,26 @@ body .sec1 .progress7 {
     width: 80%;
   }
 }
+@media only screen and (max-width: 443px) {
+  body .marginp {
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  body .marginp {
+    padding-top: 170px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body .sec1 {
+    padding-top: 200px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  body .sec1 {
+    padding-top: 300px;
+  }
+}
 @media only screen and (max-width: 768px) {
   body .sec1 {
     height: 850px;
@@ -483,6 +516,11 @@ body .sec1 .progress7 {
 @media only screen and (max-width: 550px) {
   body .sec1 {
     height: 700px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  body .sec1 {
+    padding: 0;
   }
 }
 body .sec2 {
@@ -550,6 +588,11 @@ body .sec2 .sp5 {
 @media only screen and (max-width: 993px) {
   body .sec2 .sp5 {
     font-size: 17px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .sec2 .sp5 {
+    font-size: 13px;
   }
 }
 body .sec2 .a1 {
@@ -924,7 +967,7 @@ body .position3 form button:hover {
 @media only screen and (max-width: 400px) {
   body .position3 {
     position: absolute;
-    top: -200px;
+    top: -350px;
   }
 }
 body .footerimg {
@@ -961,12 +1004,21 @@ body footer .footera {
 body footer span {
   color: #fff;
 }
+@media only screen and (max-width: 700px) {
+  body footer span {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body footer span {
+    font-size: x-small;
+  }
+}
 body footer .logoFooter {
   position: relative;
   color: white;
   font-size: 26px;
   border-right: 4px solid rgb(0, 255, 0);
-  /* border-radius: 70px; */
   border-radius: 50%;
   padding: 20px 30px 20px 30px;
   margin-bottom: 20px;
